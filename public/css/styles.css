@@ -165,5 +165,14 @@ h1 {
 .listing-table th:first-child {
   border-right: 1px solid #666;
 }
-
-/*# sourceMappingURL=styles.css.map */
+/* RESPONSIVE CSS / MOBILE TARGET */
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
