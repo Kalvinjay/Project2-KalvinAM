@@ -1,0 +1,30 @@
+doctype html
+head
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Sacramento&display=swap' rel='stylesheet')
+  title Junior Alliance
+  link(rel='StyleSheet' href='css/styles.css')
+header
+  .navphoto
+    img(src='images/JuniorAllianceLogo.jpg' alt='Junior Alliance Logo' width='175' height='100')
+  nav#headernav
+    ul.headerul
+      li.headerli
+        a.headera(href='/') Home
+      li.headerli
+        a.headera(href='/') Blog
+      li.headerli
+        a.headera(href='#') Schedule
+      #registerbutton Register
+main
+    block content
+footer
+  nav#footernav
+    ul.footerul
+      li.footerli
+        a.footera(href='#') Home
+      li.footerli
+        a.footera(href='#') Blog
+      li.footerli
+        a.footera(href='#') Schedule
+    |             &copy; Copyright 2023

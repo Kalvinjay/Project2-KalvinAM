@@ -1,0 +1,53 @@
+doctype html
+head
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Sacramento&display=swap' rel='stylesheet')
+  title Junior Alliance
+  link(rel='StyleSheet' href='css/styles.css')
+  script(src='js/main.js' <='' body='')
+header
+  .navphoto
+    img(src='images/JuniorAllianceLogo.jpg' alt='Junior Alliance Logo' width='175' height='100')
+  nav#headernav
+    ul.headerul
+      li.headerli
+        a.headera(href='/') Home
+      li.headerli
+        a.headera(href='/') Blog
+      li.headerli
+        a.headera(href='#') Schedule
+      #registerbutton
+         a(href='/Register') Register
+main
+  section#top
+    img.mainphoto1(src='images/Grand AM.jpg' alt='Grand Am Basketball tournament')
+    img.mainphoto2(src='images/FILCANGroup.jpg' alt='FilCan Nation Select Group')
+    .text
+      h2 What is Junior Alliance?
+      p
+        | Junior Alliance is a basketball club that was started in 2010 in Winnipeg, Canada. Junior Alliance was started to bring
+        | young athletes together to learn the game of basektball by practicing, competing in Winnipeg basketball leagues,
+        | traveling to tournaments in the States and around Western Canada. The main goal of Junior Alliance was to bring
+        | athletes together to cherish memories that will last forever. Alliance has had over 20 teams with hundreds of
+        | different athletes who have come together to get better and some players who have gone to play University/College
+        | basketball.
+  section#bottom
+    .titleforbottom
+      h4.xmastitle Junior Alliance Family
+      h4.blank  BLANK 
+      h4.directortitle Director of Junior Alliance
+    .accomplishments
+      img.xmas(src='images/JuniorAllianceXmas.jpg' alt='Junior Allinace Xmas')
+      img.jrlogo(src='images/2JuniorAllianceLogo.jpg' alt='Second Junior Alliance Logo')
+      img.coachk(src='images/Director.jpg' alt='Coach Kalvin')
+    block content
+footer
+  nav#footernav
+    ul.footerul
+      li.footerli
+        a.footera(href='/') Home
+      li.footerli
+        a.footera(href='/') Blog
+      li.footerli
+        a.footera(href='#') Schedule
+    |             &copy; Copyright 2023

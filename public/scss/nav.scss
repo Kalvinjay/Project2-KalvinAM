@@ -1,0 +1,51 @@
+// HEADER NAVBAR
+
+header {
+    margin: 25px 20px;
+    background-color: red;
+    height: 100px;
+    .navphoto {
+        float: left;
+    }
+    .headerul {
+        text-align: center;
+        display: block;
+    }
+    .headerli {
+        display: block;
+        font-size: x-large;
+        color: white;
+    }
+    .headera {
+        color: white;
+        text-decoration: none;
+    }
+    #registerbutton {
+        float: right;
+        color: white;
+        font-size: x-large;
+        margin-right: 80px;
+        margin-top: -55px;
+        text-decoration: underline;
+    }
+}
+    
+
+
+// FOOTER NAVBAR
+footer {
+    .footerul {
+        text-align: center;
+        font-weight: bold;
+        background-color: black;
+        .footerli {
+            display: inline;
+            .footera {
+                color: red;
+                text-decoration: none;
+                width: 33%;
+                padding: 12px;
+            }
+        }
+    }
+}

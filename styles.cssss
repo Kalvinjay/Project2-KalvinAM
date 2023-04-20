@@ -1,0 +1,176 @@
+/* Header Nav Bar */
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+
+header{ 
+    margin: 25px 20px;
+    background-color: red;
+    height: 100px;
+}
+.navphoto {
+    float: left;
+}
+nav #headernav {
+   float: right;
+  
+}
+.headerul {
+    text-align: center;
+    display: block;
+    
+}
+.headerli {
+    display: block;
+    font-size: x-large;
+    color: white;
+}
+.headera {
+    color: white;
+    text-decoration: none;
+}
+#registerbutton {
+    float: right;
+    color: white;
+    font-size: x-large;
+    margin-right: 80px;
+    margin-top: -55px;
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    margin-top: 30px;
+    margin: 25px 20px;
+    display: block;
+}
+.mainphoto1{
+    width: 26%;
+    height: 400px;
+}
+.mainphoto2{
+    width: 40%;
+    height: 400px;
+}
+.text {
+    width: 33%;
+    float: right;
+    border-style: solid;
+    border-color: black;
+}
+h2 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:20px;
+    background-color:red;
+    color:#ffffff;
+}
+
+/* Sub Main Section */
+.titleforbottom {
+    display: flex;
+}
+
+.xmastitle {
+    width: 33%;
+    text-align: center;
+}
+.blank {
+    width: 33%;
+    color: beige;
+}
+.directortitle {
+    width: 33%;
+    text-align: center;
+}
+
+.xmas {
+    width: 33%;
+    height: 250px;
+}
+.jrlogo {
+    width: 33%;
+    height: 250px;
+}
+.coachk {
+    width: 33%;
+    height: 250px;
+}
+
+/* Footer Nav bar */
+.footerul {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+}
+.footerli {
+    display: inline;
+}
+.footera {
+    color: red;
+    text-decoration: none;
+    width: 33%;
+    padding: 12px;
+}
+
+/* css for registration form and errors*/
+h1 {
+    text-align: center;
+}
+.form-registration {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-registration {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-registration input {
+    width: 100%;
+    margin: 0px 0 10px;
+  }
+  .form-registration .btn {
+    flex: 1 0 100%;
+  }
+  .my-errors {
+    margin: 1em auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+    font-size: 1rem;
+    display: table;
+  }
+  /* .my-errors li {
+    margin: 0 0 1rem;
+  } */
+  .my-errors li:before {
+    content: "! Error : ";
+    color: #f00;
+    font-weight: bold;
+  }
+  
+  /* Styles for listing table */
+  .listing-table {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    background-color: red;
+    color: white;
+  }
+  .listing-table th,
+  .listing-table td {
+    padding: 10px;
+    border-bottom: 1px solid #666;
+  }
+  .listing-table th {
+    background: #000;
+    color: #fff;
+  }
+  .listing-table td:first-child,
+  .listing-table th:first-child {
+    border-right: 1px solid #666;
+  }
+  
