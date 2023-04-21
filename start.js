@@ -36,7 +36,7 @@ require('./models/Registration');
 const app = require('./app');
 
 
-pp.get("/manifest.json", function(req, res){
+app.get("/manifest.json", function(req, res){
   res.header("Content-Type", "text/cache-manifest");
   res.sendFile(path.join(__dirname, "manifest.json"));
 });
