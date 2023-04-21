@@ -10,6 +10,24 @@ const basic = auth.basic({
   file: path.join(__dirname, '../users.htpasswd'),
 });
 
+app.get("/", (req,res, next)=> {
+  let users=[];
+  axios.get("https://randomuser.me/api/?results=10")
+  .then((response)=>{
+    response.data.results.map((user)=> {
+      users.push(user);
+    });
+    console.log(users);
+    res.render("main", {
+      users
+    });
+  })
+  .catch((err)=> {
+    console.log(err);
+    res.render("main");
+  });
+});
+
 router.get('/', (req, res) => {
   //res.send('It works!');
   res.render('layout', { title: 'Home Page' });
